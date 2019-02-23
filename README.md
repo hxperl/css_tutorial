@@ -60,3 +60,23 @@ Declarations contain properties and values
     color: red;
 }
 ```
+### 4. Embedded & Inline Styling
+
+##### 3 Ways to Add CSS
+
+- Inline styling - YUK
+- Embedded style sheets - YUK
+- External style sheets - Cowabunga
+
+##### 4.1 Inline styling
+
+- Time consuming to style multiple elements
+- Tricky to manage and update
+- Messy
+- Goof for very specialised rules
+
+##### 4.2 Embedded Styling
+
+- Time consuming to apply global styles
+- Hard to maintain and update
+- Good for making specific page styles
