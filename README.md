@@ -116,17 +116,24 @@ Both are a way to describe your content
 - Classes can be used multiple times on a page
 - IDs can be used only once per page - they are unique!
 
-### 8. Inheritance
+### 8. Selector Specificity
 
-##### Inheritance Tree
+##### Conflicts & Cascade
 
-```html
-<body>
-    <div>
-        <p>Text<p>
-    </div>
-    <h1>Text<h1>
-</body>
+###### e.g.1
+```css
+p { color: black;} 
+p { color: red;}  - This rule wins
 ```
 
+###### e.g.2
+```css
+#main-content p { color: black;} - This rule wins
+p { color: red;}
+```
 
+##### How Specific?
+
+ID's        100 point
+Classes     10 point
+Elements    1 point
