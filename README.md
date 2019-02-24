@@ -95,3 +95,16 @@ Declarations contain properties and values
 ```css
 /* Comments */
 ```
+
+### 6. Targeting Elements
+
+```css
+h1 {
+    font-size: 32px;
+}
+
+div {
+    width: 100%;
+    background-color: grey;
+}
+```
