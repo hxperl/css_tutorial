@@ -80,3 +80,12 @@ Declarations contain properties and values
 - Time consuming to apply global styles
 - Hard to maintain and update
 - Good for making specific page styles
+
+##### 4.3 External Style Sheets
+
+###### Time consuming
+- Inline styling
+- Embedded style sheets
+
+###### Quick and Easier
+- External style sheets
