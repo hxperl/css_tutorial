@@ -89,3 +89,9 @@ Declarations contain properties and values
 
 ###### Quick and Easier
 - External style sheets
+
+### 5. Comments
+
+```css
+/* Comments */
+```
