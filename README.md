@@ -115,3 +115,18 @@ Both are a way to describe your content
 
 - Classes can be used multiple times on a page
 - IDs can be used only once per page - they are unique!
+
+### 8. Inheritance
+
+##### Inheritance Tree
+
+```html
+<body>
+    <div>
+        <p>Text<p>
+    </div>
+    <h1>Text<h1>
+</body>
+```
+
+
